@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>NLP Engineer · Data Scientist · AI Engineer</b><br>
-  I build datasets, models, and production-ready pipelines for NLP, with a focus on low-resource languages like <b>Pashto</b>.
+  Building the language foundations, datasets, and AI systems that low-resource languages like <b>Pashto</b> are missing.
 </p>
 
 <p align="center">
@@ -12,28 +12,37 @@
 
 ---
 
-## 💼 What I do
+## 🧭 The problem I work on
 
-- **NLP:** sentiment analysis, language identification, transformer fine-tuning, and code-mixed text processing
-- **Data science:** large-scale data collection, cleaning, exploratory analysis, dataset quality evaluation, and model evaluation
-- **AI engineering:** RAG pipelines, LLM-powered assistants, and FastAPI services ready to deploy
+Most AI systems are built for a few dozen well-resourced languages. For languages like Pashto, the basic building blocks are often missing: reliable data, standard spelling, tokenizers that split words sensibly, and dictionaries and lexicons to build on. Online, Pashto is mostly typed in Roman letters, with no agreed spelling, which makes everything harder.
+
+My work starts at these foundations and builds up toward working AI systems:
+
+| Layer | What I work on |
+|---|---|
+| **1. Language foundations** | Romanization and transliteration, spelling normalization, tokenization, and lexicon and dictionary resources |
+| **2. Data** | Large-scale collection, cleaning, quality analysis, and validation of real-world text |
+| **3. Models** | Language identification, sentiment analysis, and transformer fine-tuning for Romanized and code-mixed text |
+| **4. AI engineering** | Turning research into deployable APIs, RAG pipelines, and LLM-powered assistants |
+
+Each layer depends on the one below it. A model is only as good as its data, and data is only as good as the language handling underneath it. That is why I work across the whole stack instead of treating NLP as a single model-training step.
 
 ## 🔭 Current focus
 
-- **Romanized Pashto NLP research:** dataset quality, language detection, sentiment analysis, and code-mixed text
+- **Romanized Pashto research:** dataset quality, language detection, sentiment analysis, and code-mixed text
 - **Social media data collection** for NLP research (ongoing, data available on request)
 - **LLM applications:** retrieval-augmented generation and AI assistants
 
 ## 🚀 Featured projects
 
-| Project | What it shows |
-|---|---|
-| [**Romanized_pashto_research**](https://github.com/razaqnlp/Romanized_pashto_research) | End-to-end NLP research program: data quality, language detection, sentiment analysis, code-mixed text |
-| [**Fast-Data-Collector-and-cleaner**](https://github.com/razaqnlp/Fast-Data-Collector-and-cleaner-V-1.0) | FastAPI pipeline for data collection, cleaning, language detection, and sentiment analysis |
-| [**Fasttext_Language_Detector**](https://github.com/razaqnlp/Fasttext_Language_Detector) | Text classification for language identification in noisy text |
-| [**nlp-data-cleaning-toolkit**](https://github.com/razaqnlp/nlp-data-cleaning-toolkit) | Reusable Python preprocessing for social media text |
-| [**RAG-AI-Assistent**](https://github.com/razaqnlp/RAG-AI-Assistent) | Document Q&A with retrieval-augmented generation |
-| [**Pashto-NLP-Lab**](https://github.com/razaqnlp/Pashto-NLP-Lab) | Interactive Pashto NLP demos and experiments |
+| Layer | Project | What it shows |
+|---|---|---|
+| Foundations → Models | [**Romanized_pashto_research**](https://github.com/razaqnlp/Romanized_pashto_research) | Five-stage research program: data quality, detection, sentiment, code-mixed text |
+| Data | [**Fast-Data-Collector-and-cleaner**](https://github.com/razaqnlp/Fast-Data-Collector-and-cleaner-V-1.0) | FastAPI pipeline for collection, cleaning, language detection, and sentiment analysis |
+| Data | [**nlp-data-cleaning-toolkit**](https://github.com/razaqnlp/nlp-data-cleaning-toolkit) | Reusable preprocessing for noisy social media text |
+| Models | [**Fasttext_Language_Detector**](https://github.com/razaqnlp/Fasttext_Language_Detector) | Language identification in noisy multilingual text |
+| AI engineering | [**RAG-AI-Assistent**](https://github.com/razaqnlp/RAG-AI-Assistent) | Document Q&A with retrieval-augmented generation |
+| AI engineering | [**Pashto-NLP-Lab**](https://github.com/razaqnlp/Pashto-NLP-Lab) | Interactive Pashto NLP demos and experiments |
 
 ## 🛠️ Tech stack
 
@@ -58,7 +67,7 @@
 
 ## 🤝 Open to
 
-Roles as an **AI Engineer, ML Engineer, NLP Engineer, or Data Scientist**, and collaboration on NLP research for low-resource languages.
+Roles as an **AI Engineer, ML Engineer, NLP Engineer, or Data Scientist**, and collaboration on NLP resources and research for low-resource languages.
 
 ## 📫 Contact
 
